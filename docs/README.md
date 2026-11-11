@@ -20,3 +20,7 @@ The local working copy is `%USERPROFILE%\.agents\skills`.
 A background watcher commits and pushes local changes, pulls remote updates, and runs a periodic reconciliation every 15 minutes. A separate scheduled task performs a fallback sync every 30 minutes.
 
 Conflicts are never force-pushed. If local and remote edits conflict, the local commit is kept and the error is written to `sync-skills.log` for manual resolution.
+
+## Validation
+
+Remote pull verified on 2026-11-11.
