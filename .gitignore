@@ -12,3 +12,11 @@ __pycache__/
 
 # Local sync artifacts
 *.log
+
+# Node / Remotion artifacts
+**/node_modules/
+**/out/
+**/.remotion/
+
+# Vendored video-shotcraft local junction (recreated by npm prepare)
+video-shotcraft/workbench/demosrc
